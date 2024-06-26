@@ -1,0 +1,179 @@
+{
+  "users": [
+    {
+      "id": "4381",
+      "userName": "nilesh",
+      "mobileNo": "8655530224",
+      "emailId": "nil@gmail.com"
+    },
+    {
+      "id": "f810",
+      "userName": "Sita ",
+      "mobileNo": "9870568985",
+      "emailId": "sita@gmail.com"
+    },
+    {
+      "id": "5804",
+      "userName": "Vikas",
+      "mobileNo": "8955565689",
+      "emailId": "vikas@gmail.com"
+    },
+    {
+      "id": "56b2",
+      "userName": "mehul",
+      "mobileNo": "9870568985",
+      "emailId": "mehul@gmail.com"
+    },
+    {
+      "id": "3b45",
+      "userName": "user  2",
+      "mobileNo": "8655530224",
+      "emailId": "atul@gmail.com"
+    }
+  ],
+  "perticulars": [
+    {
+      "id": "fe8a",
+      "particularType": "Salary"
+    },
+    {
+      "id": "2d31",
+      "particularType": "travelling"
+    },
+    {
+      "id": "76a8",
+      "particularType": "food"
+    },
+    {
+      "id": "8954",
+      "particularType": "gift"
+    },
+    {
+      "id": "14f1",
+      "particularType": "car servicing"
+    },
+    {
+      "id": "d557",
+      "particularType": "bike servicing"
+    },
+    {
+      "id": "a42b",
+      "particularType": "Maintaince Bill"
+    },
+    {
+      "id": "0ad1",
+      "particularType": "Salary"
+    }
+  ],
+  "userDetails": [
+    {
+      "id": "5084",
+      "userName": "nilesh",
+      "amount": "50000",
+      "txtdate": "2024-06-15",
+      "particularType": "Salary",
+      "expenseType": "Credit",
+      "txtMessage": "Amount credited "
+    },
+    {
+      "id": "3b89",
+      "userName": "nilesh",
+      "amount": "500",
+      "txtdate": "2024-06-17",
+      "particularType": "travelling",
+      "expenseType": "Debit",
+      "txtMessage": "traveling pune"
+    },
+    {
+      "id": "45ce",
+      "userName": "Sita ",
+      "amount": "700",
+      "txtdate": "2024-06-17",
+      "particularType": "food",
+      "expenseType": "Debit",
+      "txtMessage": "breakfast and lunch"
+    },
+    {
+      "id": "ecf4",
+      "userName": "Vikas",
+      "amount": "25000",
+      "txtdate": "2024-06-15",
+      "particularType": "Salary",
+      "expenseType": "Credit",
+      "txtMessage": "Amount Credited"
+    },
+    {
+      "id": "3f6d",
+      "userName": "mehul",
+      "amount": "20000",
+      "txtdate": "2024-06-15",
+      "particularType": "Salary",
+      "expenseType": "Credit",
+      "txtMessage": "amount creadited"
+    },
+    {
+      "id": "9576",
+      "userName": "Vikas",
+      "amount": "300",
+      "txtdate": "2024-06-17",
+      "particularType": "bike servicing",
+      "expenseType": "Debit",
+      "txtMessage": "servicing "
+    },
+    {
+      "id": "e6bf",
+      "userName": "nilesh",
+      "amount": "25400",
+      "txtdate": "2024-06-13",
+      "particularType": "food",
+      "expenseType": "Debit",
+      "txtMessage": "ddgffdf"
+    },
+    {
+      "id": "00ed",
+      "userName": "Sita ",
+      "amount": "12648",
+      "txtdate": "2024-06-17",
+      "particularType": "Maintaince Bill",
+      "expenseType": "Debit",
+      "txtMessage": "adfsfaewfwef"
+    },
+    {
+      "id": "f385",
+      "userName": "nilesh",
+      "amount": "4000",
+      "txtdate": "2024-06-17",
+      "particularType": "gift",
+      "expenseType": "Credit",
+      "txtMessage": "gift from atul"
+    },
+    {
+      "id": "1853",
+      "userName": "nilesh",
+      "amount": "600",
+      "txtdate": "2024-06-17",
+      "particularType": "travelling",
+      "expenseType": "Credit",
+      "txtMessage": "travling amt received"
+    },
+    {
+      "id": "a43a",
+      "userName": "Sita ",
+      "amount": "500",
+      "txtdate": "2024-06-17",
+      "particularType": "food",
+      "expenseType": "Credit",
+      "txtMessage": "food amount received"
+    }
+  ],
+  "expenseTypes": [
+    {
+      "id": "1",
+      "expenseType": "Credit"
+    },
+    {
+      "id": "2",
+      "expenseType": "Debit"
+    }
+  ]
+}
