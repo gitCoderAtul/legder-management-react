@@ -48,6 +48,15 @@ export default function Sidebar() {
               </p>
            </Link>
           </li>
+
+          <li class="nav-item">
+          <Link to="/search-details" class="nav-link">
+          <i class="nav-icon fas fa-tachometer-alt"></i>  
+              <p>
+                Search Details 
+              </p>
+           </Link>
+          </li>
           
           <li class="nav-item">
           <Link to="/add-user" class="nav-link">

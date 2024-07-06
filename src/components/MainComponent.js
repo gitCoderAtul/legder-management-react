@@ -17,9 +17,7 @@ export default function MainComponent() {
 
 
   function funcGetDate(ev) {
-    console.log(ev);
-    setIsVisible(!isVisible);
-
+    console.log(ev); 
     var currentDate = ev;
     var dd = String(currentDate.getDate()).padStart(2, "0");
     var mm = String(currentDate.getMonth() + 1).padStart(2, "0"); //January is 0!
@@ -28,6 +26,17 @@ export default function MainComponent() {
     var currentDate = yyyy + "-" + mm + "-" + dd;
     console.log(currentDate);
     // console.log(getCurrentDate);
+    
+    try {
+      fetch(process.env.REACT_APP_API + "/userDetails?txtdate="+currentDate)
+        .then((res) => res.json())
+        .then((value) => {
+          console.log('date',value);
+          // setUserData(value);
+        });
+    } catch (err) {
+      console.log(err);
+    }
 
     const filtered = userData.filter((item) => item.txtdate === currentDate);
     //  console.log(filtered.map((itemValue)=> itemValue.amount))
@@ -152,6 +161,7 @@ export default function MainComponent() {
 
   useEffect(() => {
     fetchData();
+    chartLoad();
   }, []);
   
   function btnSearch() {
@@ -167,8 +177,8 @@ export default function MainComponent() {
     });
   console.log(filtered);
   // console.log(filtered[0].userName);
-    if( filtered != []){
-      setIsVisible(!isVisible);
+    // if( filtered != []){
+    
       console.log(filtered);
      
       const filteredAmout = filtered.map((itemValue)=> itemValue.amount);
@@ -198,9 +208,9 @@ export default function MainComponent() {
       chartLoad();
       fetchData();
       
-    }else{ 
-      setIsVisible(isVisible);
-    }
+    // }else{ 
+    //   // setIsVisible(isVisible);
+    // }
 
     
   }
@@ -260,7 +270,7 @@ export default function MainComponent() {
  
        
           <section className=" col-lg-6 ">
-          {isVisible && (
+          {/* {isVisible && ( */}
             <div className="row">
               <div class="col-lg-4 col-6">
                 <div class="small-box bg-info">
@@ -299,7 +309,7 @@ export default function MainComponent() {
                 </div>
               </div>
             </div>
-          )}
+          {/* )} */}
             {/* <div className="card ">
             <div className="card-header">
                     <h3 className="card-title">Expense Details </h3>
@@ -317,7 +327,8 @@ export default function MainComponent() {
               </div>
             </div>
           </section>
-          {isVisible && (
+          {/* {isVisible && ( */}
+
           <section className=" col-lg-12 ">
             <div className="card ">
               <div className="card-body p-3">
@@ -352,7 +363,8 @@ export default function MainComponent() {
               </div>
             </div>
           </section>
-          )}
+
+          {/* )} */}
 
 
 

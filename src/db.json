@@ -29,6 +29,12 @@
       "userName": "user  2",
       "mobileNo": "8655530224",
       "emailId": "atul@gmail.com"
+    },
+    {
+      "id": "3a92",
+      "userName": "viral",
+      "mobileNo": "9696909000",
+      "emailId": "vi@gmail.com"
     }
   ],
   "perticulars": [
@@ -63,6 +69,14 @@
     {
       "id": "0ad1",
       "particularType": "Salary"
+    },
+    {
+      "id": "7310",
+      "particularType": "School Fees"
+    },
+    {
+      "id": "a6fd",
+      "particularType": "Share Dividend"
     }
   ],
   "userDetails": [
@@ -164,6 +178,33 @@
       "particularType": "food",
       "expenseType": "Credit",
       "txtMessage": "food amount received"
+    },
+    {
+      "id": "69e0",
+      "userName": "viral",
+      "amount": "10000",
+      "txtdate": "2024-06-01",
+      "particularType": "Share Dividend",
+      "expenseType": "Credit",
+      "txtMessage": "From TVS"
+    },
+    {
+      "id": "d295",
+      "userName": "viral",
+      "amount": "12000",
+      "txtdate": "2024-06-07",
+      "particularType": "gift",
+      "expenseType": "Credit",
+      "txtMessage": "From Parents"
+    },
+    {
+      "id": "def9",
+      "userName": "viral",
+      "amount": "6000",
+      "txtdate": "2024-06-20",
+      "particularType": "School Fees",
+      "expenseType": "Debit",
+      "txtMessage": "school feees"
     }
   ],
   "expenseTypes": [
